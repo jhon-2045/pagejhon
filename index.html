@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jhon_2045 - Desarrollador Web</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #121212;
+            color: #E0E0E0;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background-color: #1F1B24;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 2em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1F1B24;
+            padding: 1em 0;
+        }
+        nav a {
+            color: #BB86FC;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #03DAC6;
+        }
+        section {
+            padding: 2em;
+        }
+        .bio, .projects, .technologies, .contact, .posts {
+            margin: 2em 0;
+            background-color: #1F1B24;
+            padding: 1.5em;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .bio:hover, .projects:hover, .technologies:hover, .contact:hover, .posts:hover {
+            transform: translateY(-5px);
+        }
+        .project {
+            border: 1px solid #BB86FC;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin: 0.5em 0;
+            border: 1px solid #BB86FC;
+            border-radius: 4px;
+            background-color: #2D2A33;
+            color: #E0E0E0;
+        }
+        .contact-form button {
+            background-color: #BB86FC;
+            color: #121212;
+            padding: 1em 2em;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .contact-form button:hover {
+            background-color: #03DAC6;
+        }
+        footer {
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jhon_2045</h1>
+        <p>Desarrollador Web Junior</p>
+    </header>
+    <nav>
+        <a href="#bio">Biografía</a>
+        <a href="#projects">Proyectos</a>
+        <a href="#technologies">Tecnologías</a>
+        <a href="#contact">Contacto</a>
+        <a href="#posts">Publicaciones</a>
+    </nav>
+    <section id="bio" class="bio">
+        <h2>Biografía</h2>
+        <p>Hola, soy Jhon_2045. Apasionado por la tecnología y en constante aprendizaje para convertirme en un desarrollador web profesional.</p>
+    </section>
+    <section id="projects" class="projects">
+        <h2>Proyectos</h2>
+        <div class="project">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto. Tecnologías utilizadas: HTML, CSS, JavaScript.</p>
+            <a href="https://github.com/tu_usuario/proyecto1">Ver en GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Proyecto 2</h3>
+            <p>Descripción breve del proyecto. Tecnologías utilizadas: React, Node.js.</p>
+            <a href="https://github.com/tu_usuario/proyecto2">Ver en GitHub</a>
+        </div>
+    </section>
+    <section id="technologies" class="technologies">
+        <h2>Tecnologías</h2>
+        <p>HTML, CSS, JavaScript, Git, React, Node.js, SQL.</p>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contacto</h2>
+        <form class="contact-form">
+            <input type="text" name="name" placeholder="Nombre" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" required>
+            <textarea name="message" placeholder="Mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <section id="posts" class="posts">
+        <h2>Publicaciones</h2>
+        <p>En esta sección puedes compartir tus artículos, tutoriales o noticias relacionadas con el desarrollo web.</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Jhon_2045. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
