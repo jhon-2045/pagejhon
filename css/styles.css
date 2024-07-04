@@ -1,0 +1,33 @@
+/* css/styles.css */
+
+/* Estilos para el header */
+header {
+    background: url('ruta/a/tu-imagen.jpg') no-repeat center center;
+    background-size: cover;
+    padding-bottom: 0;
+}
+
+/* Ajustes para la barra de navegación */
+.navbar {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Media queries para diseño responsive */
+@media (max-width: 768px) {
+    header {
+        padding: 2rem;
+    }
+
+    .card {
+        margin-bottom: 2rem;
+    }
+}
+
+/* Estilos para el formulario de contacto */
+#contacto {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
